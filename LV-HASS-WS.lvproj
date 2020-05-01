@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HASS-LV-WS_integration.lvlib" Type="Library" URL="../HASS-LV-WS_integration.lvlib"/>
-		<Item Name="test.vi" Type="VI" URL="../Example/test.vi"/>
+		<Item Name="TestMainApp.vi" Type="VI" URL="../Example/TestMainApp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
