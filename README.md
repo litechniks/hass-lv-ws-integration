@@ -12,7 +12,7 @@ Both can be installed via the VI Package Manager.
 
 ###Generating a Home Assistant Access Token
 Generate a Long-Lived Access Token via Home Assistant - this can be found after clicking on your profile badge
-You are advised to store your access token outside your LV code, in a text file for example. Run once the TestMainApp.vi example to create a txt file next to your project. Paste your access token into this generated txt file.
+You are advised to store your access token outside your LV code, in a text file for example. Run once the _TestMainApp.vi_ example to create a txt file next to your project. Paste your access token into this generated txt file.
 
 ##Using this integration
 This integration at the moment provides the following features>
@@ -32,8 +32,8 @@ This VI calls a Home Assistant Service. The service data field is optional. If y
 ### Fetch all States (wsFetchStates.vi)
 This VI fetches the states of all Home Assistant Entities and returns them in an array of clusters.
 
-##Example Code
-The TestMainApp.vi example shows you the basic usage of the integration with simple examples.
+## Example Code
+The _TestMainApp.vi_ example shows you the basic usage of the integration with simple examples.
 
-##ToDo
+## ToDo
 Events are now returned as simple JSON strings. A JSON to Cluster unflattening will be implemented soon. Now I am collecting experience about how it would be really comfortable to use.
