@@ -5,6 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Example" Type="Folder">
+		<Item Name="subVI_LightController" Type="Folder">
+			<Item Name="subVI_getLightAttributes.vi" Type="VI" URL="../Example/subVI_LightControllers/subVI_getLightAttributes.vi"/>
+			<Item Name="subVI_pulseArray.vi" Type="VI" URL="../Example/subVI_LightControllers/subVI_pulseArray.vi"/>
+		</Item>
+		<Item Name="LightController.vi" Type="VI" URL="../Example/LightController.vi"/>
 		<Item Name="TestMainApp.vi" Type="VI" URL="../Example/TestMainApp.vi"/>
 	</Item>
 	<Item Name="subVI" Type="Folder">
