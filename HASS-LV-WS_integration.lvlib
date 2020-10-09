@@ -4,16 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Example" Type="Folder">
-		<Item Name="subVI_LightController" Type="Folder">
-			<Item Name="subVI_getLightAttributes.vi" Type="VI" URL="../Example/subVI_LightControllers/subVI_getLightAttributes.vi"/>
-			<Item Name="subVI_pulseArray.vi" Type="VI" URL="../Example/subVI_LightControllers/subVI_pulseArray.vi"/>
-		</Item>
-		<Item Name="LightController.vi" Type="VI" URL="../Example/LightController.vi"/>
-		<Item Name="TestMainApp.vi" Type="VI" URL="../Example/TestMainApp.vi"/>
-	</Item>
 	<Item Name="subVI" Type="Folder">
 		<Item Name="wsCheckIfRegMsgOK.vi" Type="VI" URL="../Content/subVI/wsCheckIfRegMsgOK.vi"/>
+		<Item Name="wsGetSingleState.vi" Type="VI" URL="../Content/subVI/wsGetSingleState.vi"/>
 		<Item Name="wsMsgCounter.vi" Type="VI" URL="../Content/subVI/wsMsgCounter.vi"/>
 		<Item Name="wsRegisteredEvents.vi" Type="VI" URL="../Content/subVI/wsRegisteredEvents.vi"/>
 	</Item>
@@ -24,6 +17,8 @@
 		<Item Name="ReferencesTypeDef.ctl" Type="VI" URL="../Content/TypeDef/ReferencesTypeDef.ctl"/>
 		<Item Name="registeredEventTypeDef.ctl" Type="VI" URL="../Content/TypeDef/registeredEventTypeDef.ctl"/>
 	</Item>
+	<Item Name="restFetchStates.vi" Type="VI" URL="../Content/restFetchStates.vi"/>
+	<Item Name="restInitHTTP.vi" Type="VI" URL="../Content/subVI/restInitHTTP.vi"/>
 	<Item Name="wsCallService.vi" Type="VI" URL="../Content/wsCallService.vi"/>
 	<Item Name="wsConnectAndAuthenticate.vi" Type="VI" URL="../Content/wsConnectAndAuthenticate.vi"/>
 	<Item Name="wsFetchStates.vi" Type="VI" URL="../Content/wsFetchStates.vi"/>
